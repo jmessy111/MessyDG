@@ -1,0 +1,56 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+   
+   
+  h1 {
+    color: rgb(245, 140, 201);
+  }
+   
+   
+  p, 
+  li {
+    font-size: 18px;
+  }
+   
+   
+  a {
+    text-decoration: none;
+  }
+
+  .navbar {
+    background-color: white;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .banner {
+    background-color: rgb(241, 222, 134);
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+   
+  }
+
+  #basket_pic {
+    height: 100px;
+    width: 150px;
+    filter: drop-shadow(3px 3px 3px black);
+  }
+
+  #content {
+    padding: 20px 50px;
+  }
